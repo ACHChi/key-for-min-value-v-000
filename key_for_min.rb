@@ -8,7 +8,6 @@ def key_for_min_value(name_hash)
     If value < placeholder
       item = key
     end
-  end
-  item
   }
+  item
 end
