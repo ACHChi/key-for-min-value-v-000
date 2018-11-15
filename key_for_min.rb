@@ -5,7 +5,9 @@ def key_for_min_value(name_hash)
   item = ""
   placeholder = 1000000
   name_hash.each {|key, value|
-    if value < placeholder
+    if key = nil
+      return nil
+    elsif value < placeholder
       item = key
       placeholder = value
     end
